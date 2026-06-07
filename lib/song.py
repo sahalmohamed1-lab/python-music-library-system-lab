@@ -2,7 +2,7 @@ class Song:
     count = 0
     genres = []
     artists = []
-    genre_counts = {}
+    genre_count = {}
     artist_count = {}
 
     def __init__(self, name, artist, genre):
